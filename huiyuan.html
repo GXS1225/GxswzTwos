@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)#/member/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>会员首页</title>
+<link href="./css/_userIndex.css" type="text/css" rel="stylesheet">
+<script src="./js/common.js"></script>
+<script src="./js/clock.js"></script>
+<style>
+.upjibie0 { color:#36c;}.upjibie0:hover { color:#f50;}
+.upjibie1,.upjibie2 { display:none;}
+</style>
+<link href="./css/g2013.css" type="text/css" rel="stylesheet">
+<link href="./css/common2013.css" type="text/css" rel="stylesheet">
+<link href="./css/head_8.css" type="text/css" rel="stylesheet">
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/common2013.js"></script>
+<script src="./js/head8.js"></script>
+</head>
+<body>
+<div class="wrapper head8">
+<div class="public-top-layout">
+	<div class="topBar w-1200">
+		<div class="user-entry">
+			<img src="./images/icon.png">
+			<a href="#/help/article_334.html" class="display1 mb_false_0">手机版</a><span class="display1 mb_false_0"></span>
+			<a href="#/request.ashx?action=iswap&amp;iswap=1" class="display1 mb_true_0">返回手机版</a><span class="display1 mb_true_0"></span>
+			<a href="http://app.163k.com/download.aspx?id=12299" target="_blank">客户端</a><span></span>
+			<a href="javascript:void(0);" onclick="window.external.AddFavorite(&#39;#/&#39;,&#39;163k地方门户网站系统&#39;);return false;">收藏本站</a>            
+		</div>
+		<div class="quick-menu login_info" id="login_info"><dl style="width:84px;"><dt>你好，<a href="login.html" class="cur">请登录</a></dt></dl><dl><dt class="zn"><a href="resign.html">免费注册</a></dt></dl><dl class="xian"></dl><dl><dt class="zn"><a href="#/member/qq.aspx?from=http%3A%2F%2Fwww.mh163k.com%2Farticle%2Farticle_2157.html">QQ登录</a></dt></dl><dl class="xian"></dl><dl><dt class="zn"><a href="#/member/qq.aspx?action=weixin&amp;from=http%3A%2F%2Fwww.mh163k.com%2Farticle%2Farticle_2157.html">微信登录</a></dt></dl><dl class="xian"></dl><input value="0" id="isLogin" type="hidden"><input value="" id="user_jibie" type="hidden">
+		   
+	       <dl> 
+	           <dt class="zn"><a href="duihuan.html">礼品兑换</a></dt>
+	       </dl>
+	       <dl class="xian"></dl>
+	      <dl class="long">
+	        <dt><a href="javascript:void(0);">我的中心</a><i></i></dt>
+	        <dd>
+	          <ul>
+	            <li><a href="userinfo.html">基本资料</a></li>
+	            <li><a href="wodeshoucang.html">我的收藏</a></li>
+				<li><a href="dingdan.html">快店订单</a></li>
+	            <li><a href="shengladingdan.html">省啦订单</a></li>
+				<li><a href="baseinfo.html">我的信息</a></li>
+	            <li><a href="uppassword.html">修改密码</a></li>
+	          </ul>
+	        </dd>
+	      </dl>
+	      <dl class="xian"></dl>
+	      <dl class="long">
+	        <dt><a href="javascript:void(0);">快速发布</a><i></i></dt>
+	        <dd>
+	          <p><a href="fabu_shenghuoxinxi.html" target="_blank">生活信息</a></p>
+              <p><a href="fabu_jianli.html" target="_blank">求职简历</a></p>
+              <p><a href="fabu_zhaopin.html" target="_blank">招聘信息</a></p>
+              <p><a href="#" target="_blank">新闻投稿</a></p>
+              <p><a href="fabu_dianpu.html" target="_blank">登记店铺</a></p>
+              <p><a href="#/member/mygood.aspx?action=add#tt10" target="_blank">发布商品</a></p>
+              <p><a href="fabu_chuzu.html" target="_blank">房源出租</a></p>
+              <p><a href="fabu_chushou.html" target="_blank">房源出售</a></p>
+	        </dd>
+	      </dl>
+	      <dl class="xian"></dl>
+	      <dl class="long">
+	        <dt><a href="javascript:void(0);">网站导航</a><i></i></dt>
+	        <dd>
+	          <ul>
+	            <li><a href="daohang_bangzhu.html">帮助中心</a></li>
+	            <li><a href="daohang_liuyan.html">留言建议</a></li>
+	            <li><a href="daohang_women.html">联系我们</a></li>
+	          </ul>
+	        </dd>
+	      </dl>
+	    </div>
+	</div>
+</div>
+<!--header-->
+<div class="header">
+	<div class="clearfix w-1200">
+		<div style="display:none;" id="ind_head_cb">{$Mh163k_首页重播广告}</div>
+		<div class="logo fl">
+			<a href="#/"><img src="./images/201506240915412273038.jpg" alt="163k地方门户网站系统"></a>
+		</div>
+		<div class="search fl"><form id="searchform1" name="searchform1" method="post" target="_blank" action="#/search.aspx">
+			<input type="hidden" id="keyword_c" name="c" value="1">
+			<div class="nav_bbs" id="nav">
+				<p class="set">生活信息</p>
+				<ul class="keyword_new">
+					<li data-val="1">生活信息</li>
+					<li data-val="2">店铺商家</li>
+					<li data-val="3">新闻资讯</li>
+					<li data-val="4">省啦项目</li>
+					<li data-val="5">招聘信息</li>
+					<li data-val="6">商品信息</li>
+					<li data-val="7">视频逛街</li>
+				</ul>
+			</div><input type="text" name="keyword" class="search_text" placeholder="请输入关键字">
+			<input type="submit" value="搜索" class="search_sub">
+			</form>
+		</div>
+		<a href="#/live/fabu.html" class="hea_bot">免费发布信息</a>
+	</div>
+	<div class="navWrap clearfix">
+		<div class="nav w-1200" id="channel_nav">
+			<ul>
+				<li><a href="index.html" target="_self" class="bold0 select" style="color:;">首页</a></li>
+				<li><a href="gongqiu.html" target="_self" class="bold0" style="color:;">市场</a></li>
+				<li><a href="shengla.html" target="_self" class="bold0" style="color:;">商品</a></li>
+				<li><a href="kuaidian.html" target="_self" class="bold0" style="color:;">外卖</a></li>
+				<li><a href="dianpu.html" target="_self" class="bold0" style="color:;">商家</a></li>
+				<li><a href="huodong.html" target="_self" class="bold0" style="color:;">活动</a></li>
+				<li><a href="fangchan.html" target="_self" class="bold0" style="color:;">房产</a></li>
+				<li><a href="zhaopin.html" target="_self" class="bold0" style="color:;">人才</a></li>
+				<li><a href="zixun.html" target="_self" class="bold0" style="color:;">资讯</a></li>
+				<li><a href="vedio.html" target="_self" class="bold0" style="color:;">视频</a></li>
+				<li><a href="huangye.html" target="_self" class="bold0" style="color:;">黄页</a></li>
+				<li><a href="tieba.html" target="_self" class="bold0" style="color:;">贴吧</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="content w-1200 clearfix">
+	<div class="breadcrumb">您当前的位置：<a href="#/">首页</a> &gt; 会员管理中心</div>
+	<!-- 主体 -->
+	<div id="content" class="clearfix">
+		<div class="col_main2">
+			<!-- 会员资料 开始 -->
+			<div class="user_info clearfix">
+				<div class="pic"><img src="./images/nopic.gif" alt="" width="96" height="96"></div>
+				<div class="info_cont">
+					<p><span class="blue_skin">ヤ浮稀依旧美丽</span>，当前类型：<span style="font-weight:bold;">企业会员</span> <a href="#/member/modify.aspx?action=styleid" class="upjibie1" onclick="return window.confirm(&#39;您确定升级成为企业会员吗？&#39;);">升级为企业会员</a></p>
+					<p>注册时间：2016-7-15 10:40:56　　<span style="color:#999;">您现在是第7次登录163k地方门户网站系统</span></p>
+					<p>支付币：<b class="blue_skin">0.00</b> , 金币：<b class="blue_skin">0</b> <a href="#/member/modify.aspx?action=consume" class="red_skin">充值</a></p>
+					<p><a href="#/member/modify.aspx?action=tou" class="menu_info">更换头像</a><a href="#/member/modify.aspx" class="green_menu menu_info">完善资料</a><a href="#/member/myjianli.aspx" class="red_menu menu_info" id="add_jl" style="display:none;">录入简历</a><a href="#/114/index.html?action=add" id="add_hy" style="" class="red_menu menu_info">开通黄页</a><a href="#/member/modify.aspx?action=pass" class="green_menu menu_info">修改密码</a><!--<a href="qq.aspx?from=#/member%2fuserindex.aspx%3f" class="green_menu menu_info">绑定QQ</a>--></p>
+				</div>
+				<div class="ft">
+				<iframe allowtransparency="true" frameborder="0" width="410" height="64" scrolling="no" src="./images/index.html"></iframe>
+				</div>
+			</div>
+			<div class="data_box clearfix">
+				<span class="left"><span class="yellow_skin">今天是：</span><script type="text/javascript">showcal();</script>2016年7月18日 星期一 丙申年 六月十五　<span class="weather_zone" id="spanWeather" style="color:#000099;"></span></span>
+				<span class="right" style=""><span class="red_skin">小贴士：</span>[升级为<span class="yellow_skin">高级企业会员</span>可享受至尊特权哦]</span>
+			</div>
+			<!-- 会员资料 结束 -->
+			<!-- 我的统计 开始 -->
+			<div class="admin_index">
+		  <div class="hd clearfix"><div style="float:right; display:inline; margin-right:10px; font-weight:normal;"><a href="#/help/index.html" class="more" target="_blank">常见问题帮助</a>　<a href="#/service/index.html" target="_blank" class="more jianyi">给网站留言</a></div>我的统计</div>
+		  <div class="bd">
+			
+			
+			
+			<table class="tab_01" cellpadding="0" cellspacing="0" width="100%" id="user_0" style="display:none;">
+			  <tbody>
+			  <tr>
+				<td class="bg1">我的信息：</td><td><b>0</b>条待审　<b>0</b>条正常 <a href="#/member/mylive.aspx">[管理]</a></td>
+				<td class="bg1">我的求职：</td><td>新收到面试邀请 <b>0</b> 份 <a href="#/member/#">[查看]</a>　<a href="#/member/myjianli.aspx?styleid=1#tt4">我的简历</a></td>
+			  </tr>
+			  <tr>
+				<td class="bg1">我的省啦：</td><td><b>0</b>待付款　<b>0</b>份成功 <a href="#/member/mytgorder.aspx">[查看]</a></td>
+				<td class="bg1">我的订单：</td><td><b>0</b>待付款　<b>0</b>份成功 <a href="#/member/myorder.aspx">[查看]</a></td>
+			  </tr>
+			  <tr>
+				<td class="bg1">我的投稿：</td><td><b>2</b>条待审　<b>0</b>条正常 <a href="#/member/myarticle.aspx?action=add">[投稿]</a></td>
+				<td class="bg1">我的图集：</td><td><b>0</b>条待审　<b>0</b>条正常 <a href="#/member/myce.aspx?action=add">[上传]</a></td>
+			  </tr>
+			  <tr>
+				<td colspan="4" align="right"><p style="text-align:right;">更多详细请使用左侧目录</p></td>
+			  </tr>
+			</tbody></table>
+			
+			<table class="tab_01" cellpadding="0" cellspacing="0" width="100%" id="user_1" style="">
+			  <tbody>
+			  <tr>
+				<td class="bg1">我的信息：</td><td><b>0</b>条待审　<b>0</b>条正常 <a href="#/member/mylive.aspx">[管理]</a></td>
+				<td class="bg1">我的房源：</td><td><b>0</b>条待审 <b>0</b>条正常 <a href="#/member/manage_chuzhu.aspx">[管理]</a></td>
+			  </tr>
+			  <tr>
+				<!--<td class="bg1">我的招聘：</td><td>新收到求职简历<b>0</b>份 <a href="/member/myjob.aspx">[查看]</a></td>-->
+				<td class="bg1">我的黄页：</td><td><span class="display_false_0">[未开通]</span><span class="display_true_0"><font color="#ff6600">[正常]</font> <a href="#/member/bianming.aspx">管理我的黄页</a></span></td>
+				
+				<td class="bg1">我的网站：</td><td><span class="display_false_0">[未开通]</span><span class="display_true_0"><font color="#ff6600">[正常]</font> <a href="#/member/qiye.aspx">管理我的网站</a></span></td>
+			  </tr>
+			 <tr>
+				<td class="bg1">我的省啦：</td><td><b>0</b>待付款　<b>0</b>份成功 <a href="#/member/mytgorder.aspx">[查看]</a></td>
+				<td class="bg1">我的订单：</td><td><b>0</b>待付款　<b>0</b>份成功 <a href="#/member/myorder.aspx">[查看]</a></td>
+			  </tr>
+			  <!--<tr>
+				<td class="bg1">店铺省啦订单：</td><td><b>0</b>待付款　<b>0</b>份成功 <a href="/member/tgOrderManage.aspx">[查看]</a></td>
+				<td class="bg1">店铺购物订单：</td><td><b>0</b>待付款　<b>0</b>份成功 <a href="/member/manage_order.aspx">[查看]</a></td>
+			  </tr>-->
+			  <!--<tr>
+				
+				<td class="bg1">我的店铺：</td><td><span class="display_false_0">[未开通]</span><span class="display_true_0"><font color="#ff6600">[正常]</font> <a href="myshop.aspx">管理我的店铺</a></span></td>
+			  </tr>-->
+			   <tr>
+				<!--<td class="bg1">我的招聘：</td><td>新收到求职简历<b>0</b>份 <a href="/member/myjob.aspx">[查看]</a></td>-->
+				<td class="bg1">我的投稿：</td><td><b>2</b>条待审　<b>0</b>条正常 <a href="#/member/myarticle.aspx?action=add">[投稿]</a></td>
+				<td colspan="2">&nbsp;</td>
+			  </tr>
+			 
+			  
+			</tbody></table>
+		  </div>
+		</div>
+			<!-- 我的统计 结束 -->
+			
+			
+		</div>
+		<div class="col_sub2" id="col_sub">
+			<!-- 侧边栏菜单 开始 -->
+			<div class="side_bar">
+				<ul id="list_nav_2013" class="list_nav_2013">
+	<li class="all"><a href="#/member/" class="cur">会员首页</a></li>
+	<li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items1&#39;);">账户管理</a>
+	<ul id="items1" class="ul" style="display:none;"><li><a href="#/member/modify.aspx">基本资料</a></li><li><a href="#/member/modify.aspx?action=jifen">消费明细</a></li><li><a href="#/member/modify.aspx?action=consume">支付充值</a></li><li><a href="#/member/myorder.aspx?action=myshoucang">我的收藏</a></li><li><a href="#/member/modify.aspx?action=pass">修改密码</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items18&#39;);">订单管理</a>
+	<ul id="items18" class="ul" style="display:none;"><li><a href="#/member/myorder.aspx?action=myshoppay">购物车</a></li><li><a href="#/member/myorder.aspx?action=myaddress">地址管理</a></li><li><a href="#/member/mytgorder.aspx">省啦订单</a></li><li><a href="#/member/myorder.aspx">快店订单</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items19&#39;);">我的内容</a>
+	<ul id="items19" class="ul" style="display:none;"><li><a href="#/member/mylive.aspx">我的分类信息</a></li><li><a href="#/member/myarticle.aspx">我投稿的文章</a></li><li><a href="#/member/myce.aspx">我的相册</a></li><li><a href="#/member/myvote.aspx">我的投票活动</a></li><li><a href="#/member/myactive.aspx">我的同城活动</a></li><li><a href="#/member/myduihuan.aspx?colname=0">我的礼品兑换</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items32&#39;);">求职管理</a>
+	<ul id="items32" class="ul" style="display:none;"><li><a href="#/member/myjianli.aspx">填写全职简历</a></li><li><a href="#/member/myjianli.aspx?styleid=1">更新全职简历</a></li><li><a href="#/member/myjzjianli.aspx">填写兼职简历</a></li><li><a href="#/member/myjzjianli.aspx?styleid=1">更新兼职简历</a></li><li><a href="#/member/myrencai.aspx">收到的面试邀请</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items34&#39;);">房产管理</a>
+	<ul id="items34" class="ul" style="display:none;"><li><a href="#/member/manage_chuzhu.aspx?action=add">发布出租</a></li><li><a href="#/member/manage_chushou.aspx?action=add">发布出售</a></li><li><a href="#/member/manage_chuzhu.aspx">房源管理</a></li><li><a href="#/member/manage_zj.aspx">经纪人(中介)
+GO</a></li><li><a href="#/member/jingjirenconfig.aspx">经纪人(绑定域名)</a></li><li><a href="#/house/qiugou.aspx?tt=1" target="_blank">发布求租</a></li><li><a href="#/house/qiugou.aspx" target="_blank">发布求购</a></li><li><a href="#/member/loupan.aspx?action=add">录入楼盘</a></li><li><a href="#/member/loupan.aspx">楼盘管理</a></li><li><a href="#/member/xiaoqu.aspx?action=add">录入小区</a></li><li><a href="#/member/xiaoqu.aspx">小区管理</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items44&#39;);">黄页管理</a>
+	<ul id="items44" class="ul" style="display:none;"><li><a href="#/member/bianming.aspx?action=add">开通服务行业黄页</a></li><li><a href="#/member/bianming.aspx">管理服务行业黄页</a></li><li><a href="#/member/qiye.aspx?action=add">开通公司企业网站</a></li><li><a href="#/member/qiye.aspx">管理公司企业网站</a></li><li><a href="#/member/qiye.aspx?action=news">企业新闻管理</a></li><li><a href="#/member/qiye.aspx?action=pic">企业产品管理</a></li><li><a href="#/member/qiye.aspx?action=anli">客户案例管理</a></li><li><a href="#/member/qiye.aspx?action=liuyan">客户留言管理</a></li></ul>
+</li><li class="item"><a href="javascript:void(0);" class="rights" onclick="showHide(this,&#39;items46&#39;);">互动管理</a>
+	<ul id="items46" class="ul" style="display:none;"><li><a href="#/member/myrevert.aspx">我的评论</a></li><li><a href="#/member/admin_tieba.aspx">我的帖子</a></li><li><a href="#/member/admin_tieba.aspx?action=revert">我的回复</a></li></ul>
+</li>
+<li class="shangjia"><a href="#/member/userindex_s.aspx">商家平台</a></li></ul>
+<script src="./images/dropDown2013.js"></script>
+<script>
+$(document).ready(function(){
+	var that=$('#list_nav_2013'),
+		url = window.location.href,
+		url_L = url.toLowerCase(),
+		channel = that.find('a'),
+		forlink;
+	channel.each(function(){
+		forlink = $(this).attr("href").toLowerCase();
+		forlink = forlink.replace('?','\\?');
+		var rec = new RegExp(forlink+"$", 'gi');
+
+		
+		if(rec.test(url_L)){
+			
+			that.find('.cur').removeClass();
+			$(this).addClass("cur");
+			$(this).parents('.rights').removeClass().addClass('xias');
+			$(this).parents('.ul').show();
+		}
+	});
+});
+</script>
+			</div>
+			<!-- 侧边栏菜单 结束 -->
+		</div>
+	</div>
+	<!-- 主体 结束 -->
+	</div>
+<div class="footWrap clearfix" id="footer">
+	<div class="foot_Top clearfix">
+		<div class="foot_box clearfix">
+			<div class="foot_TL">
+				<h2>客服电话</h2>
+				<span>4006755354</span>
+				<p>工作时间 周一至周六 8:00-17:30</p>
+				<b>客服QQ<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=910002968&amp;site=qq&amp;menu=yes" target="_blank"><img src="./images/pa" alt="点击咨询"></a></b>
+			</div>
+			<div class="foot_TM">
+				<dl>
+					<dt>购物</dt>
+					<dd><a href="#/tg/">省啦商城</a></dd>
+					<dd><a href="#/k/">同城快店</a></dd>
+					<dd><a href="#/company/join.aspx">商家入驻</a></dd>
+					<dd><a href="#/member/userindex_s.aspx">商家管理</a></dd>
+				</dl>
+				<dl>
+					<dt>供求</dt>
+					<dd><a href="#/live/default.html?colname=1">跳蚤市场</a></dd>
+					<dd><a href="#/live/default.html?colname=5">交友征婚</a></dd>
+					<dd><a href="#/live/default.html?colname=6">商业服务</a></dd>
+					<dd><a href="#/live/default.html?colname=3">同城活动</a></dd>
+				</dl>
+				<dl>
+					<dt>房产</dt>
+					<dd><a href="#/house/loupan.html">新楼盘</a></dd>
+					<dd><a href="#/house/chushou.html">二手房</a></dd>
+					<dd><a href="#/house/chuzhu.html">出租房</a></dd>
+					<dd><a href="#/house/zhongjie.html">找中介</a></dd>
+				</dl>
+				<dl>
+					<dt>招聘</dt>
+					<dd><a href="#/job/zhiwei.html?key=0">找工作</a></dd>
+					<dd><a href="#/job/rencai.html">找人才</a></dd>
+					<dd><a href="#/member/myzhiwei.aspx?action=add">发招聘</a></dd>
+					<dd><a href="#/member/myjianli.aspx?styleid=1">填简历</a></dd>
+				</dl>
+			</div>
+			<div class="foot_TR">
+				<div class="TR_LL">
+					<p>微信公众号</p>
+					<a href="javascript:void(0);"><img src="./images/201507100907139465099.jpg" alt="nihao163k"></a> 
+				</div>
+				<div class="TR_RR">
+					<p>APP客户端</p>	
+					<a href="http://app.163k.com/download.aspx?id=12299" target="_blank"><img src="./images/201509071154513472674.png"></a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="foot_Mid clearfix">
+		<div class="foot_MC">
+			<ul class="clearfix">
+				<li class="first"><a href="javascript:void(0);" onclick="this.style.behavior=&quot;url(#default#homepage)&quot;; this.setHomePage(&quot;#/&quot;);return false;">设为首页</a></li><li><a href="javascript:void(0);" onclick="window.external.AddFavorite(&#39;#/&#39;,&#39;163k地方门户网站系统&#39;);return false;">加为收藏</a></li><li><a href="#/help/article_1.html" target="_blank">网站介绍</a></li><li><a href="#/help/article_7.html" target="_blank">关于我们</a></li><li><a href="#/help/article_10.html" target="_blank">服务条款</a></li><li><a href="#/help/article_11.html" target="_blank">广告服务</a></li><li><a href="#/help/article_12.html" target="_blank">招聘信息</a></li><li><a href="#/help/article_14.html" target="_blank">免责声明</a></li><li><a href="#/help/article_13.html" target="_blank">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="foot_Bot clearfix">
+		<p>Copyright @ 2003-2015 163k.com All Right Reserved @中国北京@为互联网事业发展助跑 <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备06006761号</a> <script src="./images/stat.php" language="JavaScript" charset="gb2312"></script><script src="./images/core.php" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1488135" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./images/pic.gif"></a></p>
+	</div>
+</div>
+</div>
+
+<script src="./js/select.jQuery.js"></script>
+<script>
+$(function() {
+	$('#mySle').selectbox();
+	$(document).modCity();
+	$('#fabu').showMore();
+	$('#weixin').showMore();
+	$.returnTop();
+	var url = "../request.ashx?action=islogin&json=1&jsoncallback=?&date=" + new Date();
+	$.getJSON(url,function(data){
+		if(data[0].islogin==="1"){
+			if(data[0].jibie !== '0'){
+				$('#user_1').show();
+				$('#add_hy').show();
+				var linode = document.createElement('li');
+				linode.className='shangjia';
+				linode.innerHTML = '<a href="#/member/userindex_s.aspx">商家平台</a>';
+				$('#list_nav_2013').append(linode);
+			}else{
+				$('#user_0').show();
+				$('#add_jl').show();
+			}
+		}
+	});
+});
+</script>
+
+
+ <a href="#/member/#" alt="返回顶端" id="returnTop">返回顶端</a></body></html>

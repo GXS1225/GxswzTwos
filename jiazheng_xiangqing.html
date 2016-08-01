@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)#/live/live_244.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>供求的详情界面</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="./css/classified2013.css" type="text/css" rel="stylesheet">
+<script src="./js/common.js"></script>
+<link href="./css/g2013.css" type="text/css" rel="stylesheet">
+<link href="./css/common2013.css" type="text/css" rel="stylesheet">
+<link href="./css/head_8.css" type="text/css" rel="stylesheet">
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/common2013.js"></script>
+<script src="./js/head8.js"></script>
+<script src="./js/share.js"></script><link rel="stylesheet" href="./images/share_style1_16.css"></head>
+<body>
+<div class="wrapper head8">
+<div class="public-top-layout">
+	<div class="topBar w-1200">
+		<div class="user-entry">
+			<img src="./images/icon.png">
+			<a href="#/help/article_334.html" class="display1 mb_false_0">手机版</a><span class="display1 mb_false_0"></span>
+			<a href="#/request.ashx?action=iswap&iswap=1" class="display1 mb_true_0">返回手机版</a><span class="display1 mb_true_0"></span>
+			<a href="http://app.163k.com/download.aspx?id=12299" target="_blank">客户端</a><span></span>
+			<a href="javascript:void(0);" onClick="window.external.AddFavorite('#/','163k地方门户网站系统');return false;">收藏本站</a>            
+		</div>
+		<div class="quick-menu login_info" id="login_info"><dl style="width:84px;"><dt>你好，<a href="login.html" class="cur">请登录</a></dt></dl><dl><dt class="zn"><a href="resign.html">免费注册</a></dt></dl><dl class="xian"></dl><dl><dt class="zn"><a href="#/member/qq.aspx?from=http%3A%2F%2Fwww.mh163k.com%2Farticle%2Farticle_2157.html">QQ登录</a></dt></dl><dl class="xian"></dl><dl><dt class="zn"><a href="#/member/qq.aspx?action=weixin&amp;from=http%3A%2F%2Fwww.mh163k.com%2Farticle%2Farticle_2157.html">微信登录</a></dt></dl><dl class="xian"></dl><input value="0" id="isLogin" type="hidden"><input value="" id="user_jibie" type="hidden">
+		   
+	       <dl> 
+	           <dt class="zn"><a href="duihuan.html">礼品兑换</a></dt>
+	       </dl>
+	       <dl class="xian"></dl>
+	      <dl class="long">
+	        <dt><a href="javascript:void(0);">我的中心</a><i></i></dt>
+	        <dd>
+	          <ul>
+	            <li><a href="userinfo.html">基本资料</a></li>
+	            <li><a href="wodeshoucang.html">我的收藏</a></li>
+				<li><a href="dingdan.html">快店订单</a></li>
+	            <li><a href="shengladingdan.html">省啦订单</a></li>
+				<li><a href="baseinfo.html">我的信息</a></li>
+	            <li><a href="uppassword.html">修改密码</a></li>
+	          </ul>
+	        </dd>
+	      </dl>
+	      <dl class="xian"></dl>
+	      <dl class="long">
+	        <dt><a href="javascript:void(0);">快速发布</a><i></i></dt>
+	        <dd>
+	          <p><a href="fabu_shenghuoxinxi.html" target="_blank">生活信息</a></p>
+              <p><a href="fabu_jianli.html" target="_blank">求职简历</a></p>
+              <p><a href="fabu_zhaopin.html" target="_blank">招聘信息</a></p>
+              <p><a href="#" target="_blank">新闻投稿</a></p>
+              <p><a href="fabu_dianpu.html" target="_blank">登记店铺</a></p>
+              <p><a href="#/member/mygood.aspx?action=add#tt10" target="_blank">发布商品</a></p>
+              <p><a href="fabu_chuzu.html" target="_blank">房源出租</a></p>
+              <p><a href="fabu_chushou.html" target="_blank">房源出售</a></p>
+	        </dd>
+	      </dl>
+	      <dl class="xian"></dl>
+	      <dl class="long">
+	        <dt><a href="javascript:void(0);">网站导航</a><i></i></dt>
+	        <dd>
+	          <ul>
+	            <li><a href="daohang_bangzhu.html">帮助中心</a></li>
+	            <li><a href="daohang_liuyan.html">留言建议</a></li>
+	            <li><a href="daohang_women.html">联系我们</a></li>
+	          </ul>
+	        </dd>
+	      </dl>
+	    </div>
+	</div>
+</div>
+<!--header-->
+<div class="header">
+	<div class="clearfix w-1200">
+		<div style="display:none;" id="ind_head_cb">{首页重播广告}</div>
+		<div class="logo fl">
+			<a href="#/"><img src="./images/201506240915412273038.jpg" alt="163k地方门户网站系统"></a>
+		</div>
+		<div class="search fl"><form id="searchform1" name="searchform1" method="post" target="_blank" action="#/search.aspx">
+			<input type="hidden" id="keyword_c" name="c" value="1">
+			<div class="nav_bbs" id="nav">
+				<p class="set">生活信息</p>
+				<ul class="keyword_new">
+					<li data-val="1">生活信息</li>
+					<li data-val="2">店铺商家</li>
+					<li data-val="3">新闻资讯</li>
+					<li data-val="4">省啦项目</li>
+					<li data-val="5">招聘信息</li>
+					<li data-val="6">商品信息</li>
+					<li data-val="7">视频逛街</li>
+				</ul>
+			</div><input type="text" name="keyword" class="search_text" placeholder="请输入关键字">
+			<input type="submit" value="搜索" class="search_sub">
+			</form>
+		</div>
+		<a href="#/live/fabu.html" class="hea_bot">免费发布信息</a>
+	</div>
+	<div class="navWrap clearfix">
+		<div class="nav w-1200" id="channel_nav">
+			<ul>
+				<li><a href="index.html" target="_self" class="bold0 select" style="color:;">首页</a></li>
+				<li><a href="gongqiu.html" target="_self" class="bold0" style="color:;">市场</a></li>
+				<li><a href="shengla.html" target="_self" class="bold0" style="color:;">商品</a></li>
+				<li><a href="kuaidian.html" target="_self" class="bold0" style="color:;">外卖</a></li>
+				<li><a href="dianpu.html" target="_self" class="bold0" style="color:;">商家</a></li>
+				<li><a href="huodong.html" target="_self" class="bold0" style="color:;">活动</a></li>
+				<li><a href="fangchan.html" target="_self" class="bold0" style="color:;">房产</a></li>
+				<li><a href="zhaopin.html" target="_self" class="bold0" style="color:;">人才</a></li>
+				<li><a href="zixun.html" target="_self" class="bold0" style="color:;">资讯</a></li>
+				<li><a href="vedio.html" target="_self" class="bold0" style="color:;">视频</a></li>
+				<li><a href="huangye.html" target="_self" class="bold0" style="color:;">黄页</a></li>
+				<li><a href="tieba.html" target="_self" class="bold0" style="color:;">贴吧</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="content w-1200 clearfix">
+		<div class="breadcrumb">您当前的位置：<a href="#/">首页</a> &gt; <a href="#/live/">家政</a> &gt; <a href="#/live/default.html?colname=4">专业开荒保洁</a></div>
+		<div class="adv"><a target="_blank" href="#/live/live_244.html#index02"><img src="./images/2014371725361404178.jpg" alt=""></a>
+                         </div>
+		<div class="grid_j02 clearfix">
+			<div class="col_main">
+				<div class="mod_03 clearfix">
+					<div class="hd">
+						<div class="ar_hd clearfix">
+							<div class="left mar10"><span class="s_gr1">商家</span><h1 class="left">专业开荒保洁、旧居清理、地板打蜡、瓷砖美缝石材结晶</h1><span class="left bh">信息编号：2016073119</span></div>
+							<div class="right share">
+								<div class="left">分享到：</div>
+								<div class="left"><!--<div class="bdsharebuttonbox"><A class=bds_more href="http://share.baidu.com/code?qq-pf-to=pcqq.group#" data-cmd="more"></A><A class=bds_qzone title=分享到QQ空间 href="http://share.baidu.com/code?qq-pf-to=pcqq.group#" data-cmd="qzone"></A><A class=bds_tsina title=分享到新浪微博 href="http://share.baidu.com/code?qq-pf-to=pcqq.group#" data-cmd="tsina"></A><A class=bds_tqq title=分享到腾讯微博 href="http://share.baidu.com/code?qq-pf-to=pcqq.group#" data-cmd="tqq"></A><A class=bds_renren title=分享到人人网 href="http://share.baidu.com/code?qq-pf-to=pcqq.group#" data-cmd="renren"></A><A class=bds_weixin title=分享到微信 href="http://share.baidu.com/code?qq-pf-to=pcqq.group#" data-cmd="weixin"></A></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+-->
+<div class="bdsharebuttonbox bdshare-button-style1-16" data-bd-bind="1468547777480"><a href="#/live/live_244.html#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#/live/live_244.html#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#/live/live_244.html#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#/live/live_244.html#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div><script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script></div>
+							</div>
+						</div>
+						<div class="ar_bd clearfix">
+							<p class="left"><span class="user">nihao</span><span class="date">2014年07月15日</span><span class="num">2274</span><span class="period">还有31天3小时过期</span></p>
+							<p class="right"><a href="javascript:showjubaolive(244);" class="jubao">举报</a><a href="javascript:void(0)" data-scrolld="main_03" class="huifu current">回复</a></p>
+						</div>
+						<span class="guoqi" style="display:none;">信息已过期</span>
+					</div>
+					<div class="bd clearfix">
+						<div class="left_pic">
+<div class="gallery po_re" id="dialog_pro">
+	<div class="big_photo_inner" id="superAlbum">
+		<img src="./images/20160109003915_43550.jpg" id="dialog_img" class="viewimg">
+		<a id="preArrow" title="上一张" class="contextDiv" href="javascript:void(0)" style="display:none;"><span id="preArrow_A"></span></a>
+		<a id="nextArrow" title="下一张" class="contextDiv" href="javascript:void(0)"><span id="nextArrow_A"></span></a>
+	</div>
+	<div class="imgListNode po_re">
+		<ul class="imgList clearfix" id="dialog_imgList" style="width: 504px;"><li class="cur"><a href="./images/20160109003915_43550.jpg" data-index="0" class="item"><img src="./images/20160109003915_435501.jpg" alt=""></a><s class="arrow"></s></li><li class=""><a href="./images/20160109003918_99800.jpg" data-index="1" class="item"><img src="./images/20160109003918_998001.jpg" alt=""></a><s class="arrow"></s></li><li class=""><a href="./images/20160109003920_54480.jpg" data-index="2" class="item"><img src="./images/201601090039201_54480.jpg" alt=""></a><s class="arrow"></s></li><li class=""><a href="./images/20160109003922_59170.jpg" data-index="3" class="item"><img src="./images/20160109003922_591701.jpg" alt=""></a><s class="arrow"></s></li><li class=""><a href="./images/20160109003924_56050.jpg" data-index="4" class="item"><img src="./images/20160109003924_560501.jpg" alt=""></a><s class="arrow"></s></li><li class=""><a href="./images/20160109003931_35730.jpg" data-index="5" class="item"><img src="./images/20160109003931_357301.jpg" alt=""></a><s class="arrow"></s></li><li class=""><a href="./images/20160109003924_56050.jpg" data-index="6" class="item"><img src="./images/20160109003924_56050.jpg" alt=""></a><s class="arrow"></s></li></ul>
+		<ul id="dialog_data" style="display:none;"><li><a href="./images/20160109003915_43550.jpg" data-val=""><img src="./images/20160109003915_435501.jpg" data-bigsrc="./images/20160109003915_43550.jpg" data-bigsrc2="{$filepaths}" alt=""></a></li><li><a href="./images/20160109003918_99800.jpg" data-val=""><img src="./images/20160109003918_998001.jpg" data-bigsrc="./images/20160109003918_99800.jpg" data-bigsrc2="{$filepaths}" alt=""></a></li><li><a href="./images/20160109003920_54480.jpg" data-val=""><img src="./images/20160109003920_544801.jpg" data-bigsrc="./images/20160109003920_54480.jpg" data-bigsrc2="{$filepaths}" alt=""></a></li><li><a href="./images/20160109003922_59170.jpg" data-val=""><img src="./images/20160109003922_591701.jpg" data-bigsrc="./images/20160109003922_59170.jpg" data-bigsrc2="{$filepaths}" alt=""></a></li><li><a href="./images/20160109003924_56050.jpg" data-val=""><img src="./images/20160109003924_560501.jpg" data-bigsrc="./images/20160109003924_56050.jpg" data-bigsrc2="{$filepaths}" alt=""></a></li><li><a href="./images/20160109003931_35730.jpg" data-val=""><img src="./images/20160109003931_357301.jpg" data-bigsrc="./images/20160109003931_35730.jpg" data-bigsrc2="{$filepaths}" alt=""></a></li><li><a href="./images/20160109003924_56050.jpg" data-val=""><img src="./images/20160109003924_56050.jpg" data-bigsrc="./images/20160109003924_56050.jpg" data-bigsrc2="{$filepaths}" alt=""></a></li><!--live/showsmallfile.html--></ul>
+	</div>
+	<a href="javascript:void(0);" class="btn_prev btn_disabled" id="dialog_img_prev">上一个</a><a href="javascript:void(0);" class="btn_next" id="dialog_img_next">下一个</a>
+</div>
+						</div>
+						<div class="right_txt">
+							<table width="100%" class="table_2 fast_0" border="0" cellspacing="0">
+							  <tbody><tr>
+    <td align="right" bgcolor="#fafafa" class="td_1"><b>区域</b></td>
+    <td align="left">滨州</td>
+  </tr>
+  <tr>
+    <td align="right" bgcolor="#fafafa" class="td_1"><b>类型</b></td>
+    <td align="left">提供</td>
+	<td align="right" bgcolor="#fafafa" class="td_1"><b>属性</b></td>
+    <td align="left">商家</td>
+  </tr>
+							</tbody></table>
+							<div class="fast_false_0">
+								<p class="line"><span class="sp_1">区域</span><span class="sp_2">滨州</span></p>
+								<p class="line"><span class="sp_1">属性</span><span class="sp_2">商家</span></p>
+							</div>
+							<p class="line"><span class="sp_1">联系人</span><span class="sp_2">李先生</span></p>
+<p class="line" id="n_chrtel"><span class="sp_1">联系电话</span><span class="sp_2 gray"><span class="tel">010-88888888</span> (<a href="javascript:showotherlive(0,&#39;010-88888888&#39;);" class="blue">该号码有<em>135</em>条发帖记录</a>)</span></p>
+<p class="line" id="n_chrmobile"><span class="sp_1">联系手机</span><span class="sp_2 gray"><span class="tel">13888888880</span> (<span class="shu" id="chrmobilearea">&nbsp;云南&nbsp;昆明市</span><a href="javascript:showotherlive(1,&#39;13888888880&#39;);" class="blue">该号码有<em>6</em>条发帖记录</a>)</span></p>
+<p class="line" id="n_chrqq"><span class="sp_1">QQ</span><span class="sp_2">123456 <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=123456&amp;site=qq&amp;menu=yes" target="_blank"><img src="./images/pa" alt="点击咨询"></a></span></p>
+<p class="line"><span class="sp_1">发布者IP</span><span class="sp_2">121.27.5.* <span class="gray" id="chriparea">北京</span></span></p>
+<p class="box">小技巧：联系说来自163k地方门户网站系统将会获得更好的效果</p>
+<input type="hidden" id="c_chrtel" value="010-88888888">
+<input type="hidden" id="c_chrmobile" value="13888888880">
+<script>
+ShowIpAddress('13888888880','121.27.5.65');
+if('123456' === ''){
+	$('#n_chrqq').hide();
+}
+</script>
+							<div class="security">
+								<p>①预付定金均存在欺骗行为！<br>②价格低廉、在更多介绍里填写电话的要谨慎！<br>③当面交易，当面验货！</p>
+								<p class="small">通过上面 查看此电话发帖记录 可以辅助辨别信息的真实性。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="fl-detail" id="fixed_can">
+					<div class="tabs" id="fixed" style="position: static; top: 0px;">
+						<ul class="clearfix">
+							<li><a href="javascript:void(0)" data-scrolld="main_01" class="current">信息内容</a></li>
+							<li><a href="javascript:void(0)" data-scrolld="main_02" class="">图片</a></li>
+							<li><a href="javascript:void(0)" data-scrolld="main_03" class="">网友留言</a></li>
+						</ul>
+					</div>
+					<div class="bd" id="main_01">
+						<div class="zd_html"><p>自定义HTML</p><p>自定义HTML</p>
+                         </div>
+						<table width="100%" class="table_1 fast_0" border="0" cellspacing="0">
+							
+						</table>
+												<div class="main_content" id="resizeIMG">
+							<span style="color:#ff0000;"><span style="color:#ff6600;">开荒保洁服务范围 </span><br>
+<span style="color:#3366ff;">1.清洗地毯，羊毛地毯清洗，化纤地毯清洗，普通地毯清洗。 </span><br>
+<span style="color:#3366ff;">2.清洗沙发，布衣沙发清洗，皮沙发清洗，皮革沙发清洗。.</span><br>
+<span style="color:#3366ff;">3开荒保洁，单位保洁，家庭保洁，企业保洁，日常保洁。 </span><br>
+<span style="color:#3366ff;">4.石材翻新，石材养护，石材结晶，石材打蜡，石材抛光。 </span><br>
+<span style="color:#3366ff;">5.椅子清洗，办公椅清洗，皮椅清洗，布椅清洗。 </span><br>
+<span style="color:#3366ff;">6.窗帘清洗，薄纱窗帘清洗，加厚窗帘清洗，高中低档清洗。 </span><br>
+<span style="color:#3366ff;">7.玻璃清洗，广告牌清洗，室外灯具清洗。 </span><br>
+<span style="color:#3366ff;">8.地板打蜡，地板增光，地板翻新，地板固体蜡。 </span><br>
+<span style="color:#ff6600;">保洁服务内容</span><br>
+<span style="color:#3366ff;">： 一、保洁程序 </span><br>
+<span style="color:#3366ff;">由内往外，由上往下、由难到易（包括玻璃、墙面、阁楼、阳台）。 </span><br>
+<span style="color:#ff6600;">二、施工现场要求 </span><br>
+<span style="color:#3366ff;">（1）鉴于保洁工作的特殊性，整个现场必须是已经装修完毕或有相关得力措施保护已经保洁过的地方不受影响。 </span><br>
+<span style="color:#3366ff;">（2）不得有闲杂人员出入施工现场，进入现场必须经过业主同意并穿我保洁公司提供的专用鞋套方可进入。 </span><br>
+<span style="color:#ff6600;">三、保洁标准 </span><br>
+<span style="color:#3366ff;">（1）玻璃：边框、推拉轨道不得有污渍、水印、灰尘；玻璃要光洁透明，不能有模糊或有水印。 </span><br>
+<span style="color:#3366ff;">（2）电源盒、灯具：开关、外盖、盖内、都要清洁干净。 </span><br>
+<span style="color:#3366ff;">（3）厨房、卫生间：瓷砖不能有水印、灰尘，必须光洁、明亮。 </span><br>
+<span style="color:#3366ff;">（4）门：门框、门头必须擦拭，凹凸处须用吸尘器或毛刷彻底清洁干净，无灰尘、水印。 </span><br>
+<span style="color:#3366ff;">（5）墙：墙角、地角必须清洁，墙壁清洁后不得有水印、灰尘。 </span><br>
+<span style="color:#3366ff;">（6）地面：清洁后的地板应该干净、无尘土、无印痕，光洁、明亮。客户验收后，应该再用干净的地拖把脚印擦去。 </span><br>
+<span style="color:#3366ff;">（7）木地板：清洁后的木地板应该干净、整洁、无灰尘，着力恢复地板本来面目。 </span><br>
+<span style="color:#ff6600;">四、不能保证之事项 </span><br>
+<span style="color:#3366ff;">（1）双层玻璃内的污渍、灰尘等及**不是保洁工作范围之内的事情均不是我保洁公司所能保证之处。 </span><br>
+<span style="color:#ff6600;">五、施工用具 </span><br>
+<span style="color:#3366ff;">（1）玻璃：上水器、专业玻璃刮、玻璃铲刀、刀片、玻璃清洁液、全新干抹布。 </span><br>
+<span style="color:#3366ff;">（2）电源盒、：全新抹布、刀片、环保清洁剂。 </span><br>
+<span style="color:#3366ff;">（3）厨房、卫生间：全新抹布、环保清洁剂、钢丝球、铲刀、刀片。 </span><br>
+<span style="color:#3366ff;">（4）墙：全新抹布、环保清洁剂、刀片、铲刀。 </span><br>
+<span style="color:#3366ff;">（5）地面：专用洗地机、吸尘机、吸水机、环保清洁剂、全新抹布、刀片、铲刀。 </span><br>
+<span style="color:#3366ff;">（6）木地板：环保清洁剂、全新抹布、刀片。 </span><br>
+</span>
+<p>
+	<span style="color:#ff0000;"><span style="color:#3366ff;">（7）打蜡：专用涂蜡器，全新干抹布，专业抛光机。 </span></span>
+</p>
+<p>
+	<br>
+</p>
+
+						</div>
+						<!--<div class="mod_06 po_re mar10">
+							<a href="fabu.html" target="_blank" class="btn po_ab">免费发布信息</a>
+							<p>
+	网上建议用户通过支付宝付款，有效保障您的个人权益
+</p>
+<p>
+	交易时请警惕网络诈骗、欺诈交易。有卖家卖手机、汽车、笔记本等的，请查询手机归属地以确保是同城交易
+</p>
+<p>
+	若遇上疑似或确定为欺诈交易、网络诈骗等信息，请向本网站举报
+</p>
+						</div>-->
+					</div>
+				</div>
+				<div class="comment" id="main_02">
+					<div class="hd clearfix"><h6 class="left">图片</h6></div>
+					<div class="bd">
+						<div class="pp_list" id="pp_list"><div class="cell"><img src="./images/20160109003915_43550.jpg" alt=""></div><div class="cell"><img src="./images/20160109003918_99800.jpg" alt=""></div><div class="cell"><img src="./images/20160109003920_54480.jpg" alt=""></div><div class="cell"><img src="./images/20160109003922_59170.jpg" alt=""></div><div class="cell"><img src="./images/20160109003924_56050.jpg" alt=""></div><div class="cell"><img src="./images/20160109003931_35730.jpg" alt=""></div><div class="cell"><img src="./images/20160108231142_82610.png" alt=""></div></div>
+					</div>
+				</div>
+				<div class="comment" id="main_03">
+					<div class="hd clearfix"><h6 class="left">网友留言评论</h6><p class="right"><em id="show_total_revert">0</em>条评论</p></div>
+					<div class="bd">
+						<div class="comment_zone" id="showcomment"><div id="total_revert" data-num="0">
+	<div style=" background-color:#fff; font-size:20px; text-align:center; padding:100px 0;" id="listEmpty">抱歉，暂时还没有人发表评论哦~！</div>
+	<div class="pageNavigation"><span class="kill">&lt;</span> <span class="kill">&gt;</span></div>
+</div>
+<input type="hidden" id="isuserpinglun" value="0"></div>
+						<div class="write2014">
+							<input type="hidden" id="needLogin" value="">
+							<input type="hidden" id="isrep" value="">
+							<input type="hidden" id="istg" value="">
+							<input type="hidden" id="parentid" value="">
+							<form id="myform">
+								<input id="chrmarkForm" name="chrmark" type="hidden">
+								<div class="cmt_txt" id="cmt_txt" contenteditable="true"></div>
+								<div class="cmt_control clearfix">
+									<div class="left">
+										<div class="emot po_re">
+											<a href="#/live/live_244.html#" onclick="return insertEmot(this,&#39;cmt_txt&#39;);" class="emot_btn">插入表情</a>
+										</div>
+									</div>
+									<div class="right">　<button type="submit" id="cmt_btn" class="cmt_btn disabled" disabled="disabled">提交</button></div>
+									<div class="right">文明上网 礼貌发帖　<span id="cmt_tip">0/300</span></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col_sub">
+				<div id="fixed">
+					<div class="list_nav_2013">
+						<ul>
+							<li class="open"><a href="#/live/default.html?colname=4" class="t">生活服务</a>
+								<ul>
+									<li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=94" class="current">家政保洁</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=95">搬家/旅游</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=96">装修/装饰</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=97">管道疏通/打孔</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=98">电脑维修</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=99">家电维修</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=100">家居维修</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=101">婚礼庆典</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=102">写真/婚纱摄影</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=103">美容美体</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=104">养生保健</a></li><li><a href="http://www.mh163k.com/live/default.html?colname=4&amp;key=105">订票/特价机票</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="mod_02">
+						<div class="hd">热点推荐</div>
+						<div class="bd">
+							<ul>
+								<li><a href="#/live/live_245.html" target="_blank"><img src="./images/201601082312102012077_s.png" onerror="this.src=&#39;#/template/pc/main/default/images/livelistnopic.gif&#39;;this.onerror=&#39;&#39;;" width="120" hright="120" alt=""><span class="tit">做网站,多年网站经验,承接各种网站开发</span></a><p>2014-07-15</p></li><li><a href="#/live/live_244.html" target="_blank"><img src="./images/201601082312014513570_s.png" onerror="this.src=&#39;#/template/pc/main/default/images/livelistnopic.gif&#39;;this.onerror=&#39;&#39;;" width="120" hright="120" alt=""><span class="tit">晶之恋婚纱摄影厅—8588送1000元购物卡</span></a><p>2014-07-15</p></li><li><a href="#/live/live_243.html" target="_blank"><img src="./images/20160109003924_56050.jpg" onerror="this.src=&#39;#/template/pc/main/default/images/livelistnopic.gif&#39;;this.onerror=&#39;&#39;;" width="120" hright="120" alt=""><span class="tit">业空调维修安装移机加氟 太阳能安装维修</span></a><p>2014-07-15</p></li><li><a href="#/live/live_241.html" target="_blank"><img src="./images/201601082335556079632_s.png" onerror="this.src=&#39;#/template/pc/main/default/images/livelistnopic.gif&#39;;this.onerror=&#39;&#39;;" width="120" hright="120" alt=""><span class="tit">1200元超值网站建设,送百度排名,自然网站优化</span></a><p>2014-07-15</p></li><li><a href="#/live/live_240.html" target="_blank"><img src="./images/201601082347072481728_s.png" onerror="this.src=&#39;#/template/pc/main/default/images/livelistnopic.gif&#39;;this.onerror=&#39;&#39;;" width="120" hright="120" alt=""><span class="tit">门头牌匾 灯箱 发光字 LOGO墙 LED显示屏</span></a><p>2014-07-15</p></li>
+							</ul>
+						</div>
+					</div>
+					<a href="#/live/live_244.html#" class="jisu_btn">极速发布信息</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+<div class="footWrap clearfix" id="footer">
+	<div class="foot_Top clearfix">
+		<div class="foot_box clearfix">
+			<div class="foot_TL">
+				<h2>客服电话</h2>
+				<span>4006755354</span>
+				<p>工作时间 周一至周六 8:00-17:30</p>
+				<b>客服QQ<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=910002968&amp;site=qq&amp;menu=yes" target="_blank"><img src="./images/pa(1)" alt="点击咨询"></a></b>
+			</div>
+			<div class="foot_TM">
+				<dl>
+					<dt>购物</dt>
+					<dd><a href="#/tg/">省啦商城</a></dd>
+					<dd><a href="#/k/">同城快店</a></dd>
+					<dd><a href="#/company/join.aspx">商家入驻</a></dd>
+					<dd><a href="#/member/userindex_s.aspx">商家管理</a></dd>
+				</dl>
+				<dl>
+					<dt>供求</dt>
+					<dd><a href="#/live/default.html?colname=1">跳蚤市场</a></dd>
+					<dd><a href="#/live/default.html?colname=5">交友征婚</a></dd>
+					<dd><a href="#/live/default.html?colname=6">商业服务</a></dd>
+					<dd><a href="#/live/default.html?colname=3">同城活动</a></dd>
+				</dl>
+				<dl>
+					<dt>房产</dt>
+					<dd><a href="#/house/loupan.html">新楼盘</a></dd>
+					<dd><a href="#/house/chushou.html">二手房</a></dd>
+					<dd><a href="#/house/chuzhu.html">出租房</a></dd>
+					<dd><a href="#/house/zhongjie.html">找中介</a></dd>
+				</dl>
+				<dl>
+					<dt>招聘</dt>
+					<dd><a href="#/job/zhiwei.html?key=0">找工作</a></dd>
+					<dd><a href="#/job/rencai.html">找人才</a></dd>
+					<dd><a href="#/member/myzhiwei.aspx?action=add">发招聘</a></dd>
+					<dd><a href="#/member/myjianli.aspx?styleid=1">填简历</a></dd>
+				</dl>
+			</div>
+			<div class="foot_TR">
+				<div class="TR_LL">
+					<p>微信公众号</p>
+					<a href="javascript:void(0);"><img src="./images/201507100907139465099.jpg" alt="nihao163k"></a> 
+				</div>
+				<div class="TR_RR">
+					<p>APP客户端</p>	
+					<a href="http://app.163k.com/download.aspx?id=12299" target="_blank"><img src="./images/201509071154513472674.png"></a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="foot_Mid clearfix">
+		<div class="foot_MC">
+			<ul class="clearfix">
+				<li class="first"><a href="javascript:void(0);" onclick="this.style.behavior=&quot;url(#default#homepage)&quot;; this.setHomePage(&quot;#/&quot;);return false;">设为首页</a></li><li><a href="javascript:void(0);" onclick="window.external.AddFavorite(&#39;#/&#39;,&#39;163k地方门户网站系统&#39;);return false;">加为收藏</a></li><li><a href="#/help/article_1.html" target="_blank">网站介绍</a></li><li><a href="#/help/article_7.html" target="_blank">关于我们</a></li><li><a href="#/help/article_10.html" target="_blank">服务条款</a></li><li><a href="#/help/article_11.html" target="_blank">广告服务</a></li><li><a href="#/help/article_12.html" target="_blank">招聘信息</a></li><li><a href="#/help/article_14.html" target="_blank">免责声明</a></li><li><a href="#/help/article_13.html" target="_blank">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="foot_Bot clearfix">
+		<p>Copyright @ 2003-2015 163k.com All Right Reserved @中国北京@为互联网事业发展助跑 <a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备06006761号</a> <script src="./images/stat.php" language="JavaScript" charset="gb2312"></script><script src="./images/core.php" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1488135" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./images/pic.gif"></a></p>
+	</div>
+</div>
+
+
+<div class="po_jisu po_ab" id="po_jisu" style="display: none; top: 168px;">
+	<div class="hd clearfix"><h3 class="left">极速发布信息</h3><a href="#/live/live_244.html#" class="close_all right">关闭</a></div>
+	<div class="bd" id="inner_iframe"></div>
+</div>
+<div class="mask" id="mask" style="display: none; height: 916px;"></div>
+<script src="./js/select.jQuery.js"></script>
+<script src="./js/live2013.js"></script>
+<script src="./js/jquery.form.js"></script>
+<script src="./js/comments2014.js"></script>
+<script src="./js/emotData.js"></script>
+<script type="text/javascript">
+var nowdomain = '#/';
+window['Default_tplPath'] = '#/template/pc/main/default/';
+window['ACTIVEID'] = '244';
+window['STYLEID'] = '5';
+$(function() {
+    $('#mySle').selectbox();
+	$(document).modCity();
+	$('#fabu').showMore();
+	$('#weixin').showMore();
+	$.returnTop();
+	$('#resizeIMG').resizeIMG(998,1200);
+	$('#dialog_pro').houseGallery();
+	$('#pp_list').detailPicList();
+	getNewRevertPage('1');
+	$("#myform").chackTextarea(600,"cmt_txt","cmt_tip","cmt_btn",postRevertPage);
+	$('#po_jisu').jisu();
+});
+window.onload = function(){
+	$('#fixed').fixed($('#fixed_can'));
+	$('#fixed').doMaodian();
+	$('[data-scrolld]').scrolld({speed: 500,callback: function(){}});
+}
+</script>
+
+ <img src="./images/show.aspx" alt="" width="0" height="0"><a href="#/live/live_244.html#" alt="返回顶端" id="returnTop" style="bottom: -200px;">返回顶端</a></body></html>
